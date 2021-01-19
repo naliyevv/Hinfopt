@@ -1,0 +1,22 @@
+CHANGELOG FOR LINORM_SUBSP
+
+v1.3
+
+* included a fallback option for the INFO > 0 problem in AB13HD.f
+* included some modifications for better performance
+* included some tiny bugfixes
+
+v1.2
+
+* included an option for calling the MATLAB function 'norm' to compute the
+  L-infinity-norm of the reduced problems
+
+v1.1
+
+* included rational approximation using the Loewner framework
+* included the possibility to pass functions handles to linorm_subsp.m
+* linorm_subsp returns improved outputs
+* included an option for regularization
+* included more irrational test examples
+* included tools for constructing input data and for plotting 
+* included a users' guide with installation instructions
