@@ -1,0 +1,258 @@
+===========================================================
+TEST SERIES FOR hinfopt.m
+===========================================================
+Date: 22-Mar-2019.
+Version: 9.4.0.813654 (R2018a).
+Computer: GLNXA64.
+===========================================================
+Example 1a: anemometer_1p using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 0 	 Current minimizer: [ 0.027169 ] 	 H-infinity norm: 0.027103 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 1 	 Current minimizer: [ 0.015540 ] 	 H-infinity norm: 0.021051 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 2 	 Current minimizer: [ 0.054196 ] 	 H-infinity norm: 0.042658 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 3 	 Current minimizer: [ 0.031606 ] 	 H-infinity norm: 0.029492 	 Subspace dimension: 22 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 4 	 Current minimizer: [ -0.000000 ] 	 H-infinity norm: 0.013227 	 Subspace dimension: 23 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 5 	 Current minimizer: [ -0.000000 ] 	 H-infinity norm: 0.013227 	 Subspace dimension: 23 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ -0.000000 ]. The optimal H-infinity norm is 0.0132274.
+The runtime is 30.9176 seconds.
+===========================================================
+Example 1b: anemometer_1p using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 0 	 Current minimizer: [ 0.027169 ] 	 H-infinity norm: 0.027103 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 1 	 Current minimizer: [ 0.015540 ] 	 H-infinity norm: 0.021051 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 2 	 Current minimizer: [ 0.054196 ] 	 H-infinity norm: 0.042658 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 3 	 Current minimizer: [ 0.031606 ] 	 H-infinity norm: 0.029491 	 Subspace dimension: 22 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 4 	 Current minimizer: [ 0.000000 ] 	 H-infinity norm: 0.013227 	 Subspace dimension: 23 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 5 	 Current minimizer: [ 0.000000 ] 	 H-infinity norm: 0.013227 	 Subspace dimension: 23 
+The optimal H-infinity norm has converged, but the optimal parameter may be inaccurate.
+The optimal parameter is attained for mumin = [ 0.000000 ]. The optimal H-infinity norm is 0.0132274.
+The runtime is 32.6761 seconds.
+===========================================================
+Example 2a: anemometer_3p using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 0 	 Current minimizer: [ 0.437369 1.999999 1.025167 ] 	 H-infinity norm: 0.001662 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 1 	 Current minimizer: [ 0.000000 2.000000 0.838551 ] 	 H-infinity norm: 0.001647 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 2 	 Current minimizer: [ 0.000000 2.000000 0.838551 ] 	 H-infinity norm: 0.001647 	 Subspace dimension: 21 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 0.000000 2.000000 0.838551 ]. The optimal H-infinity norm is 0.00164723.
+The runtime is 40.9304 seconds.
+===========================================================
+Example 2b: anemometer_3p using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 0 	 Current minimizer: [ 0.000000 2.000000 0.100000 ] 	 H-infinity norm: 0.001647 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 1 	 Current minimizer: [ 0.087880 2.000000 1.051193 ] 	 H-infinity norm: 0.001650 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 2 	 Current minimizer: [ 0.000000 2.000000 0.100000 ] 	 H-infinity norm: 0.001647 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 3 	 Current minimizer: [ 0.000000 2.000000 0.100000 ] 	 H-infinity norm: 0.001647 	 Subspace dimension: 21 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 0.000000 2.000000 0.100000 ]. The optimal H-infinity norm is 0.00164723.
+The runtime is 766.059 seconds.
+===========================================================
+Example 3a: SECM using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 0 	 Current minimizer: [ 1.000000 1.208804 ] 	 H-infinity norm: 2.116685 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 1 	 Current minimizer: [ 1.657869 7.389056 ] 	 H-infinity norm: 1.856100 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 2 	 Current minimizer: [ 1.476130 6.352188 ] 	 H-infinity norm: 1.855979 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 3 	 Current minimizer: [ 1.000000 4.288178 ] 	 H-infinity norm: 1.855828 	 Subspace dimension: 22 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 4 	 Current minimizer: [ 1.000000 4.288178 ] 	 H-infinity norm: 1.855828 	 Subspace dimension: 23 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 1.000000 4.288178 ]. The optimal H-infinity norm is 1.85583.
+The runtime is 20.5136 seconds.
+===========================================================
+Example 3b: SECM using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 0 	 Current minimizer: [ 1.892418 2.089743 ] 	 H-infinity norm: 2.171476 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 1 	 Current minimizer: [ 4.817140 1.000000 ] 	 H-infinity norm: 3.136427 	 Subspace dimension: 20 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 2 	 Current minimizer: [ 1.598984 7.389049 ] 	 H-infinity norm: 1.856445 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 3 	 Current minimizer: [ 1.000000 4.194489 ] 	 H-infinity norm: 1.855876 	 Subspace dimension: 22 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 4 	 Current minimizer: [ 1.000000 4.194489 ] 	 H-infinity norm: 1.855876 	 Subspace dimension: 23 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 1.000000 4.194489 ]. The optimal H-infinity norm is 1.85588.
+The runtime is 180.012 seconds.
+===========================================================
+Example 4a: sin_membrane using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 0 	 Current minimizer: [ 5.000000 575.000000 3100.000000 12.000000 ] 	 H-infinity norm: 40.609762 	 Subspace dimension: 16 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 5 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 5 
+Current outer iteration: 1 	 Current minimizer: [ 5.000000 575.000000 3100.000000 12.000000 ] 	 H-infinity norm: 40.609762 	 Subspace dimension: 17 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 5.000000 575.000000 3100.000000 12.000000 ]. The optimal H-infinity norm is 40.6098.
+The runtime is 120.508 seconds.
+===========================================================
+Example 4b: sin_membrane using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 0 	 Current minimizer: [ 5.000000 636.102332 3144.275604 12.000000 ] 	 H-infinity norm: 40.609762 	 Subspace dimension: 16 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 6 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 6 
+Current outer iteration: 1 	 Current minimizer: [ 5.000000 582.104293 3200.000000 12.000000 ] 	 H-infinity norm: 40.609762 	 Subspace dimension: 17 
+The optimal H-infinity norm has converged, but the optimal parameter may be inaccurate.
+The optimal parameter is attained for mumin = [ 5.000000 582.104293 3200.000000 12.000000 ]. The optimal H-infinity norm is 40.6098.
+The runtime is 654.006 seconds.
+===========================================================
+Example 5a: synthetic using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 14.825660 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 14.8257 	 Subspace dimension: 21 
+Current outer iteration: 0 	 Current minimizer: [ 0.997908 ] 	 H-infinity norm: 24.490757 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 14.813326 	 Subspace dimension: 21 
+Current iteration: 1 	 Current interpolation frequency: 14.8133 	 Subspace dimension: 23 
+Current outer iteration: 1 	 Current minimizer: [ 1.000000 ] 	 H-infinity norm: 24.481438 	 Subspace dimension: 21 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 14.813335 	 Subspace dimension: 23 
+Current iteration: 1 	 Current interpolation frequency: 14.8133 	 Subspace dimension: 23 
+Current outer iteration: 2 	 Current minimizer: [ 1.000000 ] 	 H-infinity norm: 24.481438 	 Subspace dimension: 23 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 1.000000 ]. The optimal H-infinity norm is 24.4814.
+The runtime is 2.49738 seconds.
+===========================================================
+Example 5b: synthetic using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 11.441900 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 11.4417 	 Subspace dimension: 21 
+Current outer iteration: 0 	 Current minimizer: [ 0.113032 ] 	 H-infinity norm: 20.332104 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 11.440053 	 Subspace dimension: 21 
+Current iteration: 1 	 Current interpolation frequency: 11.4402 	 Subspace dimension: 23 
+Current outer iteration: 1 	 Current minimizer: [ 0.112964 ] 	 H-infinity norm: 20.332103 	 Subspace dimension: 21 
+The optimal H-infinity norm has converged, but the optimal parameter may be inaccurate.
+The optimal parameter is attained for mumin = [ 0.112964 ]. The optimal H-infinity norm is 20.3321.
+The runtime is 0.995353 seconds.
+===========================================================
+Example 6a: T2DAL_BCI using GRANSO
+===========================================================
+Use GRANSO for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 0 	 Current minimizer: [ 10000.000000 9999.999999 9999.999999 ] 	 H-infinity norm: 11.542884 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 1 	 Current minimizer: [ 10000.000000 9999.999999 9999.999999 ] 	 H-infinity norm: 11.542884 	 Subspace dimension: 20 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 10000.000000 9999.999999 9999.999999 ]. The optimal H-infinity norm is 11.5429.
+The runtime is 2.61057 seconds.
+===========================================================
+Example 6b: T2DAL_BCI using eigopt
+===========================================================
+Use eigopt for the optimization.
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 0 	 Current minimizer: [ 10000.000000 10000.000000 10000.000000 ] 	 H-infinity norm: 11.542884 	 Subspace dimension: 19 
+Computing the H-infinity norm by linorm_subsp: 
+Current iteration: 0 	 Current interpolation frequency: 0.000000 	 Subspace dimension: 19 
+Current iteration: 1 	 Current interpolation frequency: 0 	 Subspace dimension: 19 
+Current outer iteration: 1 	 Current minimizer: [ 10000.000000 10000.000000 10000.000000 ] 	 H-infinity norm: 11.542884 	 Subspace dimension: 20 
+Both the optimal parameter and the optimal H-infinity norm have converged.
+The optimal parameter is attained for mumin = [ 10000.000000 10000.000000 10000.000000 ]. The optimal H-infinity norm is 11.5429.
+The runtime is 366.448 seconds.
